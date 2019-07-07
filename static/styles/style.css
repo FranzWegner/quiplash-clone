@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("BebasNeue.otf") format("opentype");
+}
+
+body {
+    font-family: "Bebas";
+    text-align: center;
+    background-color: #99a5d7;
+    padding: 0;
+    margin: 0;
+    word-spacing: 0.2em;
+}
+
+label {
+    font-size: 2.5em;
+}
+
+#display_player_name {
+    background-color: #b4bbd7;
+    font-size: 2em;
+}
+
+input[type=text] {
+    font-family: "Bebas";
+    font-size: 2em;
+    padding: 0.8em 1em;
+    margin: 0.6em;
+    width: 50%
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-right: -0.5em;
+    background-color: #b0bbe8;
+}
+
+li:nth-child(2) {
+    background-color: #8b94b7;
+}
+
+button {
+    background-color: #273363;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: "Bebas"
+}
+
+.current_prompt {
+    padding: 1em 1em 0.2em 1em;
+    word-spacing: 0.3em;
+}
+
+#vote_options {
+    font-size: 5em;
+}
+
+
+/*   #player_connect {
+    background-color: lightblue;
+}
+
+#player_wait {
+    background-color: lightcoral;
+}
+
+#player_prompt_answer {
+    background-color: lightpink;
+}
+
+#player_vote_prompt {
+    background-color: lightcyan;
+} */

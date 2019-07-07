@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("BebasNeue.otf") format("opentype");
+}
+
+body {
+    font-family: "Bebas";
+    text-align: center;
+    background-color: #99a5d7;
+    padding: 0;
+    margin: 0;
+    word-spacing: 0.2em;
+}
+
+
+/* https://css-tricks.com/centering-css-complete-guide/ */
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#server_waiting_for_players_list {
+    font-size: 4em;
+    column-count: 2;
+}
+
+#server_waiting_for_player_input_list {
+    font-size: 4em;
+    column-count: 2;
+    column-gap: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+#server_countdown_player_input {
+    font-size: 8em;
+    margin: -0.4em
+}
+
+#server_countdown_prompt {
+    font-size: 1.3em;
+}
+
+#server_countdown_prompt {
+    font-size: 4em;
+    margin: -0.3em
+}
+
+#server_prompt>p {
+    font-size: 1em
+}
+
+#server_prompt>ul {
+    column-count: 2;
+    font-size: 2em;
+    line-height: 3em;
+}
+
+#server_prompt>ul>li {
+    background-color: #b0bbe8;
+}
+
+#server_prompt>ul>li:nth-child(2) {
+    background-color: #8b94b7;
+}
+
+button {
+    background-color: #273363;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Bebas"
+}
+
+.server_current_prompt {
+    padding: 1em 1em 0.2em 1em;
+    word-spacing: 0.3em;
+}
+
+#server_prompt_with_results>p {
+    margin: -0.1em;
+    padding-bottom: 0.3em;
+}
+
+#server_prompt_with_results>ul {
+    font-size: 2em;
+    column-count: 2;
+}
+
+#server_prompt_with_results>ul>li {
+    background-color: #b0bbe8;
+}
+
+#server_prompt_with_results>ul>li:nth-child(2) {
+    background-color: #8b94b7;
+}
+
+#server_options_voters>li {
+    font-size: 0.5em;
+}
+
+#server_scoreboard {
+    text-align: left;
+    column-count: 2;
+    font-size: 4em;
+    list-style-position: inside;
+}
+
+#server_scoreboard>li {
+    background-color: #b0bbe8;
+    ;
+}
+
+#server_scoreboard>li:nth-child(2n) {
+    background-color: #8b94b7;
+}
+
+#server_scores>h1 {
+    font-size: 4em;
+    margin-bottom: -0.8em;
+}
+
+
+/* #server_start {
+    background-color: lightblue;
+}
+
+#server_waiting_for_players {
+    background-color: lightcoral;
+}
+
+#server_waiting_for_player_input {
+    background-color: lightpink;
+}
+
+#server_prompt {
+    background-color: lightcyan;
+}
+
+#server_prompt_with_results {
+    background-color: lightblue;
+}
+
+#server_scores {
+    background-color: lightcoral;
+} */

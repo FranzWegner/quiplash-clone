@@ -1,0 +1,15 @@
+<html>
+
+<head>
+    <title>Play</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <script src="{{ url_for('static',filename='js/player_main.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/player_socket_connection.js') }}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+</head>
+
+<body>
+    {% include 'player_name.html' %} {% include 'player_connect.html' %} {% include 'player_wait.html' %} {% include 'player_prompt_answer.html' %} {% include 'player_vote.html' %}
+</body>
+
+</html>sn

@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Main Screen</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/server_style.css') }}">
+    <script src="{{ url_for('static',filename='js/server_main.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/server_socket_connection.js') }}"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+</head>
+
+<body>
+
+    {% include 'server_start.html' %} {% include 'server_waiting_for_players.html' %} {% include 'server_wait_for_player_input.html' %} {% include 'server_prompt.html' %} {% include 'server_prompt_with_results.html' %} {% include 'server_scores.html' %}
+
+</body>
+
+</html>
