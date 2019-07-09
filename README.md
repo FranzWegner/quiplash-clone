@@ -1,5 +1,6 @@
 # quiplash-clone
-A simple clone of Jackbox Games' Quiplash using Flask-Socket.IO created for university (Development of modern web applications)
+A simple clone of Jackbox Games' Quiplash using Flask-Socket.IO created for university (Development of modern web applications, HTW Berlin)
+
 Read more about Quiplash and how it works: https://jackboxgames.com/project/quiplash/
 
 To play:
